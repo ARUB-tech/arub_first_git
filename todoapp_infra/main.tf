@@ -3,9 +3,9 @@ module "resource_group" {
   resource_group_name     = "rg-todoapp"
   resource_group_location = "centralindia"
 }
-module "resource_group1" {
+module "resource_group2" {
   source                  = "../modules/azurerm_resource_group"
-  resource_group_name     = "rg-todoapp1"
+  resource_group_name     = "rg-todoapp2"
   resource_group_location = "centralindia"
 }
 
